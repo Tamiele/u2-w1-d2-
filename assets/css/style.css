@@ -435,10 +435,13 @@ footer a {
 }
 
 @media screen and (min-width: 1200px) {
+  h1 {
+    position: relative;
+  }
   h1 img {
     position: absolute;
     bottom: -18px;
-    right: 128px;
+    left: 460px;
     width: 47%;
   }
 }
