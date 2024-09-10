@@ -88,15 +88,15 @@ h1 img {
   cursor: pointer;
   border: solid white;
 }
+aside div {
+  position: relative;
+}
 .fa-tag {
-  color: gray;
+  color: #8080807a;
   font-size: 50px;
   top: 6px;
   position: absolute;
   right: 6px;
-}
-aside div {
-  position: relative;
 }
 
 @media screen and (min-width: 800px) {
@@ -288,6 +288,7 @@ iframe {
 @media screen and (min-width: 1200px) {
   iframe,
   section {
+    height: 267px;
     display: inline-block;
     width: 50%;
     margin-inline: -2px;
@@ -443,6 +444,36 @@ footer a {
     bottom: -18px;
     left: 460px;
     width: 47%;
+  }
+  .iconaUno {
+    top: 5px;
+    font-size: 25px;
+    color: blue;
+    position: fixed;
+    right: -11px;
+    bottom: initial;
+    z-index: 1000;
+    background-color: #ffffffa6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: solid white;
+  }
+  .iconaDue {
+    bottom: initial;
+    font-size: 25px;
+    color: blue;
+    position: fixed;
+    right: -11px;
+    top: 90px;
+    z-index: 1000;
+    background-color: #ffffffa6;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    border: solid white;
   }
 }
 
